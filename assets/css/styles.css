@@ -27,6 +27,15 @@ li {
     padding-left: 30px;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     height: 275px;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
