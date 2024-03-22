@@ -26,6 +26,9 @@ ul {
 li {
     padding-left: 30px;
 }
+button {
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
@@ -39,3 +42,12 @@ img {
     background-color: black;
     color: white;
   }
+
+  /* .gg-sun {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 24px;
+  } */
