@@ -1,4 +1,4 @@
-// pull blogposts from localStorage and parse it back into an object. Or, if no localStorage, create a blank array.
+// pull blogposts from localStorage and parse it back into an object. Or, if no localStorage, create a blank
 const blogposts = JSON.parse(localStorage.getItem("blogPosts")) || [];
 console.log("I have posts", blogposts);
 
