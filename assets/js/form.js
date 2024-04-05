@@ -29,8 +29,8 @@ $("#form").on("submit", function (e) {
   } else {
     // look for existing array of posts or make a new one if it doesn't exist.
     const existingPosts = JSON.parse(localStorage.getItem("blogPosts")) || [];
-    // adds new post to the array
-    existingPosts.unshift(post);
+    // adds new post to the array. Swapped from .unshift to .push to add to the end of the array and send new posts to the bottom instead of the top. 
+    existingPosts.push(post);
     // sets new array of posts to local storage
     localStorage.setItem("blogPosts", JSON.stringify(existingPosts));
     alert("Blogpost Submitted");
